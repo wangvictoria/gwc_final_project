@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		
+		<!-- jQuery library -->
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		
+		<!-- Latest compiled JavaScript -->
+		<script src = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<!--Import Font Awesome-->
+		<link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+		
+		<!-- Input head content beyond this point -->
+		<title>Opporteenity</title>
+		<link type="text/css" rel="stylesheet" href="style.css" media="screen">
+		
+	</head>
+	<body>
+		
+		<div class="jumbotron">
+			<a class = "two" href = "index.html"><h1>OPPORTEENITY</h1></a>
+			<p>for the Greater Seattle Area</p> 
+			<!--<form class = "form-inline">-->
+			<!--NAVBAR-->
+			<nav class = "navbar transparent navbar-default navbar-fixed-top">
+				<div class = "container">
+					<div class = "navbar-header">
+						<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+						</button>
+						<a class = "navbar-brand" href = "index.html">OPPORTEENITY</a>
+					</div>
+					<div class = "collapse navbar-collapse" id = "myNavbar">
+						<ul class = "nav navbar-nav navbar-right">
+							<li><a href = "#map">MAP</a></li>
+							<li><a href = "#about">ABOUT</a></li>
+							<li><a href = "#contact">CONTACT US</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!--DROPDOWN-->
+			  <div class = "btn-group">
+				<button style = "width: 200px; text-align: left;" type = "button" class = "btn btn-default dropdown-toggle" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
+					Enter City
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class = "caret"></span>
+				</button>
+				<ul class = "dropdown-menu" style = "width: 200px;">
+					<li><a href = "seattle.html">Seattle</a></li>
+					<li><a href = "bellevue.html">Bellevue</a></li>
+					<li><a href = "redmond.html">Redmond</a></li>
+					<li><a href = "issaquah.html">Issaquah</a></li>
+				</ul>
+			  </div>
+				<!--<input type = "city" class = "form-control" size = "50" placeholder = "Enter City">-->
+				<button type = "button" class = "btn btn-danger" style = "background-color: #E9347F;">GO</button>
+			
+		</div>
+		<!--MAP SECTION-->
+		<div id = "map">
+		<div id = "content">
+		
+		
+		
+		</div>
+		</div>
+		<!--ABOUT SECTION-->
+		<div id = "about">
+		<div class = "container-fluid">
+			<div class = "row">
+			<!--<div class = "col-sm-8">-->
+			<h2>ABOUT</h2><br><br>
+			<h4><strong>MISSION</strong><br><br>
+			Many teens in the greater Seattle, at some point in their high school careers, come across the issue of needed or wanting volunteering, interning or school aid opportunities, but not having a clear resource to search for them. As many high schools in the area require one or all of these to graduate or receive honors, and many colleges and universities require some form of them for acceptance and placement, it’s a major problem that there’s no easy place to find them. Students have much to gain from volunteering, including but not limited to experience for high school jobs, experience for college, as well as earning volunteer hours for things like Honor Society and other honor programs. Internships offer job experience, as well as educational experience. Summer programs can help students stay on top of their education during summer months, or learn completely new skills. Every student knows the benefits of tutoring from teachers or upper level students, but finding tutors in your area, not involved with your school, is not always as easy. 
+
+<br><br>This is where Opporteenity comes in. Opporteenity provides an easy, location based search service for high school students to get connected to opportunities in volunteering, internships, tutoring and summer programs. Every student can benefit from these opportunities and it’s essential to have one easy place to find options in all areas of interest. Opporteenity is meant to highlight local companies and organizations, along with groups and individuals, and to quickly and efficiently connect them to teens and students. As students of high school age, many find that age is a barrier between them and possible internships or positions. Opporteenity aims to ultimately connect these students with positions that they are clearly able to participate in based off age and location, so there’s no more disappointment in finding the perfect internship or connection, and realizing the age barrier is there yet again. Opporteenity is the perfect place for teens to find vital connections in their areas. 
+
+			</h4>
+			
+		</div>
+		<!--<div class = ".col-xs-6 .col-sm-3">
+			<span class = "glyphicon glyphicon-education" style = "font-size: 250px;">
+		</div>-->
+		</div>
+	</div>
+		<div class = "container-fluid bg-grey">
+			<h4><strong>CREATORS</strong><br><br>
+			This site was developed and created by Victoria Wang, Hailey Dice, Anjali Agarwal as a final project of the 2016 Girls Who Code Summer Immersion Program at AT&T in Redmond, WA.
+			</h4>
+		</div>
+		<!--CONTACT US SECTION-->
+		<script type="text/javascript">
+			function ClearAll(){
+				var clear_a=document.getElementById("name");
+				var clear_b=document.getElementById("email");
+				var clear_c=document.getElementById("comments");
+				if (clear_a.value=="")
+				{
+				alert ("Please complete the form.")
+				}
+				else if (clear_b.value=="")
+				{
+				alert ("Please complete the form.")
+				}
+				else if (clear_c.value=="")
+				{
+				alert ("Please complete the form.")
+				}
+				else{
+					clear_a.value="";
+					clear_b.value="";
+					clear_c.value="";
+					alert ("Thank you for your input!");
+				}
+				}
+		</script>
+		<div id = "contact">
+		<div class = "container-fluid">
+			<h2 class ="text-center"> CONTACT US</h2>
+			<div class = "row">
+				<div class = "col-sm-5">
+					<p>Contact the creators of this website.</p>
+					<p><span class = "glyphicon glyphicon-map-marker"></span> Washington, USA</p>
+					<p><span class = "glyphicon glyphicon-phone"></span> +1(206)291-2927</p>
+					<p><span class = "glyphicon glyphicon-envelope"></span> victoriawang29@gmail.com</p>
+				</div>
+				<div class = "col-sm-7">
+					<div class = "row">
+						<div class = "col-sm-6 form-group">
+							<input class = "form-control" id = "name" name = "name" placeholder = "Name" type = "text" value=>
+						</div>
+							<div class = "col-sm-6 form-group">
+								<input class = "form-control" id = "email" name = "email" placeholder = "Email" type = "email" value=>
+							</div>
+					</div>
+						<textarea class = "form-control" id = "comments" name = "comments" placeholder = "Comment" rows = "5" value=></textarea><br>
+						<div class = "row">
+							<div class = "col-sm-12 form-group">
+								<button class = "btn btn-default pull-right" onclick="ClearAll()" type = "submit">Send</button>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<!--FOOTER-->
+		<footer class = "container-fluid text-center">
+			<a href = "index.html" title = "TOP OF PAGE">
+				<span class = "glyphicon glyphicon-chevron-up" style = "color: rgba(0,0,0,0.5);"></span>
+			</a>
+			<p>Created by Victoria Wang, Hailey Dice, and Anjali Agarwal</p>
+			<br>
+			<a class="btn btn-social-icon btn-instagram" href = "https://instagram.com/victorai" style = "color: #8e8e8e; font-size: 25px;">
+				<i class="fa fa-instagram"></i>
+			</a>
+		</footer>
+		<div class = "container">
+		</div>
+	</body>
+</html>

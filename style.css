@@ -1,0 +1,319 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+h1{
+	font-size: 2.5em;
+	font-family: Calibri Light;
+	color: #fff;
+	letter-spacing: 10px;
+}
+#content {
+	margin: 50px 170px 100px 240px;
+}
+h2 {
+	font-size: 30px;
+	font-family: Calibri;
+	color: #8e8e8e;
+}
+a.two:link{
+	font-size: 2.5em;
+	font-family: Calibri Light;
+	color: #fff;
+	letter-spacing: 10px;
+}
+a.two:visited {
+	font-size: 2.5em;
+	font-family: Calibri Light;
+	color: #fff;
+	letter-spacing: 10px;
+}
+a.two:hover {
+	font-size: 2.5em;
+	font-family: Calibri Light;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 10px;
+}
+a.three:link{
+	font-size: 30px;
+	font-family: Calibri Light;
+	color: #fff;
+}
+a.three:visited {
+	font-size: 30px;
+	font-family: Calibri Light;
+	color: #fff;
+}
+a.three:hover {
+	font-size: 30px;
+	font-family: Calibri Light;
+	color: #fff;
+	text-decoration: none;
+}
+.jumbotron {
+	background-image: url("http://www.layoverguide.com/wp-content/uploads/2010/03/Seattle-skyline-across-Pier-66-waterfront.jpg");
+	color: #FFFFFF;
+	font-family: Calibri Light;
+	text-align: center;
+	height: 670px;
+	padding: 200px 0;
+	margin: 0;
+}
+.navbar {
+	margin-bottom: 0;
+	/*background-color: #4d0099; /*which one matches?*/
+	/*background: rgba(0,0,0,0.5);
+	/*opacity: 1;*/
+	background-color: transparent;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px;
+	line-height: 1.42857143;
+	letter-spacing: 4px;
+	border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    /*color: #f4511e !important;*/
+	color: #E9347F !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+
+#banner {
+	background-image: url("images/wheel.jpg");
+	background-size: 1370px;
+	color: #FFFFFF;
+	font-family: Calibri Light;
+	text-align: center;
+	margin: 0;
+	padding: 70px 0;
+	font-size: 2em;
+}
+#banner2 {
+	background-image: url("images/bellevue.jpg");
+	background-size: 1370px;
+	color: #FFFFFF;
+	font-family: Calibri Light;
+	text-align: center;
+	margin: 0;
+	padding: 70px 0;
+	font-size: 2em;
+}
+#banner3 {
+	background-image: url("images/flight.png");
+	background-size: 1370px;
+	color: #FFFFFF;
+	font-family: Calibri Light;
+	text-align: center;
+	margin: 0;
+	padding: 70px 0;
+	font-size: 2em;
+}
+#banner4 {
+	background-image: url("images/sunset.jpg");
+	background-size: 1370px;
+	color: #FFFFFF;
+	font-family: Calibri Light;
+	text-align: center;
+	margin: 0;
+	padding: 70px 0;
+	font-size: 2em;
+}
+
+
+.bg-grey {
+	background-color: #CCCCCC;
+}
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #F4511E;
+}
+#about {
+	background-color: #E6E6E6;
+}
+#contact {
+	background-color: #E6E6E6;
+}
+.container-fluid {
+	padding: 60px 50px;
+	font-family: Calibri Light;
+	
+}
+/*$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+		
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+NAVBAR PT 2*/
+navbar2 {
+	text-align: center;
+}
+.mynavbar {
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	/*background-color: #4d0099; /*which one matches?*/
+	/*background: rgba(0,0,0,0.5);
+	/*opacity: 1;*/
+	background-color: #CCCCCC;
+	/*z-index: 9999;*/
+	border: 0;
+	font-size: 20px;
+	/*line-height: 1.42857143;*/
+	letter-spacing: 2px;
+	border-radius: 0;
+	font-family: Calibri Light;
+	
+}
+.mynavbar .nav {
+	float: none;
+	padding: 7px;
+	background-color: #CCCCCC;
+}
+.mynavbar .nav li {
+	display: inline-block;
+	float: none;
+	margin: 0 20px;
+	vertical-align: middle;
+	background-color: #CCCCCC;
+}
+.mynavbar li a, .mynavbar .mynavbar-brand {
+    color: #fff !important;
+	background-color: #CCCCCC;
+}
+
+.mynavbar-nav li a:visited {
+    color: #fff !important;
+    /*background-color: #fff !important;*/
+	background-color: #CCCCCC;
+}
+.mynavbar-nav li a:hover {
+    /*color: #f4511e !important;*/
+	color: #E9347F !important;
+    /*background-color: #fff !important;*/
+	background-color: #CCCCCC;
+}
+.mynavbar-nav li.active a  {
+	color: #f4511e;
+	background-color: #CCCCCC;
+}
+.mynavbar-default .mynavbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+	background-color: #CCCCCC;
+}
+
+.mycontainer-fluid {
+	padding: 0 0;
+	font-family: Calibri Light;
+}
+
+/*PANELS*/
+.panel-heading{
+	background-color: lightgrey;
+	font-size: 30px;
+	font-family: calibri;
+	color: white;
+}
+
+
+.col-sm-4{
+	outline-offset: 100px;
+}
+
+.panel-footer{
+	background-color: lightgrey;
+	border-color: lightgrey;
+	
+}
+
+.container{
+	padding-top: 0px;
+}
+
+.row{
+	padding-bottom: 30px;
+	padding-right: 7px;
+	
+	
+}
+
+.panel-body{
+	background-color: lightgrey;
+	font-size: 14px;
+	font-family: calibri;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	text-decoration: none;
+}
+
+/*MAPS*/
+function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 47.615645, lng: -122.203725},
+            zoom: 13
+        });
+      
+	  var myLatlng = new google.maps.LatLng(47.6154789,-122.1965615);
+		var mapOptions = {
+		  zoom: 13,
+		  center: myLatlng
+		}
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+		var marker = new google.maps.Marker({
+			position: myLatlng,
+			title:"Blank Space Cafe"
+		});
+		marker.setMap(map);
+}
